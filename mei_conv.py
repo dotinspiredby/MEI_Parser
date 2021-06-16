@@ -15,10 +15,10 @@ class ParserConverter:
         stream_obj = to_conv.run()
         return stream_obj
 
-    def run(self):
+    def process(self):
         self.score.show()
 
 
 if __name__ == "__main__":
     new = ParserConverter(sys.argv[1])
-    new.run()
+    new.process()
