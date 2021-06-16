@@ -22,4 +22,3 @@ class ParserConverter:
 if __name__ == "__main__":
     new = ParserConverter(sys.argv[1])
     new.run()
-http://digitalduchemin.org/mei/DC1413.xml
